@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import HeroAlternative from "@/components/HeroAlternative";
 import AmericanBBQ from "@/components/AmericanBBQ";
 import Differentials from "@/components/Differentials";
 import OurStory from "@/components/OurStory";
@@ -9,16 +10,17 @@ import Menu from "@/components/Menu";
 import Experiences from "@/components/Experiences";
 import WhyChoose from "@/components/WhyChoose";
 import Testimonials from "@/components/Testimonials";
-import VideoHighlight from "@/components/VideoHighlight";
 import FinalCTA from "@/components/FinalCTA";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background font-body">
       <Header />
       <Hero />
+      <HeroAlternative />
       <AmericanBBQ />
       <Differentials />
       <OurStory />
@@ -28,10 +30,10 @@ const Index = () => {
       <Experiences />
       <WhyChoose />
       <Testimonials />
-      <VideoHighlight />
       <FinalCTA />
       <Contact />
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 };

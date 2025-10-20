@@ -51,9 +51,21 @@ const Menu = () => {
           <h2 className="font-heading font-bold text-4xl md:text-5xl mb-4 text-foreground">
             Cortes <span className="text-primary">Exclusivos</span> para o seu churrasco
           </h2>
-          <p className="font-body text-lg text-muted-foreground">
+          <p className="font-body text-lg text-muted-foreground mb-6">
             Selecione, leve e finalize em casa. O verdadeiro BBQ americano para encantar seus convidados.
           </p>
+          
+          {/* Cortes Nobres & Defumados Premium */}
+          <div className="flex items-center justify-center gap-2 mb-8">
+            <span className="font-heading font-bold text-lg text-foreground">
+              Cortes Nobres & Defumados Premium
+            </span>
+            <div className="flex gap-1">
+              {[...Array(5)].map((_, i) => (
+                <span key={i} className="text-yellow-400 text-lg">★</span>
+              ))}
+            </div>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6">

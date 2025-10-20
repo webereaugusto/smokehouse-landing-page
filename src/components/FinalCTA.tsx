@@ -10,15 +10,28 @@ const FinalCTA = () => {
           Leve a WEST 1465 para o seu churrasco
         </h2>
         
-        <p className="font-body text-xl md:text-2xl text-muted-foreground mb-10 max-w-2xl mx-auto">
+        <p className="font-body text-xl md:text-2xl text-muted-foreground mb-6 max-w-2xl mx-auto">
           Visite nossa casa de carnes gourmet, escolha seus cortes e combine a retirada ou reserva pelo WhatsApp.
         </p>
+        
+        {/* Cortes Nobres & Defumados Premium */}
+        <div className="flex items-center justify-center gap-2 mb-10">
+          <span className="font-heading font-bold text-xl text-foreground">
+            Cortes Nobres & Defumados Premium
+          </span>
+          <div className="flex gap-1">
+            {[...Array(5)].map((_, i) => (
+              <span key={i} className="text-yellow-400 text-xl">★</span>
+            ))}
+          </div>
+        </div>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button 
             size="lg" 
             variant="hero"
             className="text-lg px-10 py-7 font-heading font-bold"
+            onClick={() => document.getElementById('cardapio')?.scrollIntoView({ behavior: 'smooth' })}
           >
             Ver Cortes
           </Button>
@@ -26,6 +39,7 @@ const FinalCTA = () => {
             size="lg" 
             variant="heroOutline"
             className="text-lg px-10 py-7 font-heading font-bold"
+            onClick={() => window.open('https://wa.me/551932733108', '_blank')}
           >
             Reservar pelo WhatsApp
           </Button>

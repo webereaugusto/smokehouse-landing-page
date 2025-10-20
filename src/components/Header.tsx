@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import logoImage from "@/assets/logo.png";
+import logoImage from "@/assets/logo.webp";
 
 const Header = () => {
   return (
@@ -33,13 +33,13 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="flex items-center space-x-4">
-            <Button
-              variant="outline"
-              className="hidden sm:flex border-brand-gold text-brand-gold hover:bg-brand-gold hover:text-brand-black font-condensed font-semibold"
-              onClick={() => document.getElementById('contato')?.scrollIntoView({ behavior: 'smooth' })}
-            >
-              Reserve Agora
-            </Button>
+                <Button
+                  variant="outline"
+                  className="hidden sm:flex border-brand-gold text-brand-gold hover:bg-brand-gold hover:text-brand-black font-condensed font-semibold"
+                  onClick={() => window.open('https://wa.me/551932733108', '_blank')}
+                >
+                  Reserve Agora
+                </Button>
 
             {/* Mobile menu button */}
             <Button
