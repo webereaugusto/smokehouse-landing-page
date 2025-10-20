@@ -22,6 +22,26 @@ const Menu = () => {
       description: "Lombo suíno desfiado após 10 horas de low & slow, derrete na boca.",
       highlight: "Low & Slow",
     },
+    {
+      name: "Tri-Tip Defumado",
+      description: "Corte californiano macio, com crosta crocante e interior rosado.",
+      highlight: "Especialidade da casa",
+    },
+    {
+      name: "Frango Inteiro Defumado",
+      description: "Marinado 24h, defumado até ficar com pele crocante e carne suculenta.",
+      highlight: "Marinada especial",
+    },
+    {
+      name: "Costela Bovina (Beef Ribs)",
+      description: "Gigante, suculenta, defumada por 8 horas com blend de especiarias.",
+      highlight: "Porção generosa",
+    },
+    {
+      name: "Peito de Peru Defumado",
+      description: "Temperado com ervas finas, defumado lentamente, extremamente macio.",
+      highlight: "Opção leve",
+    },
   ];
 
   return (
@@ -36,7 +56,7 @@ const Menu = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
           {menuItems.map((item, index) => (
             <div
               key={index}

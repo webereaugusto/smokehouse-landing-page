@@ -8,22 +8,22 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 17 18% 11%;
+    --background: 0 0% 0%;
     --foreground: 0 0% 95%;
 
-    --card: 17 18% 11%;
+    --card: 0 0% 5%;
     --card-foreground: 0 0% 95%;
 
-    --popover: 17 18% 11%;
+    --popover: 0 0% 5%;
     --popover-foreground: 0 0% 95%;
 
     --primary: 16 100% 50%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 17 22% 18%;
+    --secondary: 0 0% 8%;
     --secondary-foreground: 0 0% 95%;
 
-    --muted: 17 22% 18%;
+    --muted: 0 0% 12%;
     --muted-foreground: 0 0% 65%;
 
     --accent: 16 100% 50%;
@@ -32,19 +32,19 @@ All colors MUST be HSL.
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 17 15% 25%;
-    --input: 17 15% 25%;
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
     --ring: 16 100% 50%;
 
     --radius: 0.5rem;
     
-    --charcoal: 0 0% 11%;
+    --charcoal: 0 0% 0%;
     --flame: 16 100% 50%;
-    --wood: 17 22% 18%;
-    --smoke: 0 0% 20%;
+    --wood: 17 22% 12%;
+    --smoke: 0 0% 10%;
     
-    --gradient-hero: linear-gradient(135deg, hsl(17 18% 11% / 0.95), hsl(0 0% 0% / 0.9));
-    --gradient-section: linear-gradient(180deg, hsl(17 18% 11%), hsl(17 22% 18%));
+    --gradient-hero: linear-gradient(135deg, hsl(0 0% 0% / 0.95), hsl(0 0% 0% / 0.9));
+    --gradient-section: linear-gradient(180deg, hsl(0 0% 0%), hsl(0 0% 5%));
     
     --shadow-glow: 0 0 40px hsl(16 100% 50% / 0.3);
     --shadow-card: 0 10px 30px -10px hsl(0 0% 0% / 0.5);
@@ -71,7 +71,7 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 17 18% 11%;
+    --background: 0 0% 0%;
     --foreground: 0 0% 95%;
   }
 }

@@ -1,7 +1,11 @@
 import Hero from "@/components/Hero";
 import Differentials from "@/components/Differentials";
+import OurStory from "@/components/OurStory";
+import TheProcess from "@/components/TheProcess";
 import Gallery from "@/components/Gallery";
 import Menu from "@/components/Menu";
+import Experiences from "@/components/Experiences";
+import WhyChoose from "@/components/WhyChoose";
 import Testimonials from "@/components/Testimonials";
 import FinalCTA from "@/components/FinalCTA";
 import Contact from "@/components/Contact";
@@ -12,8 +16,12 @@ const Index = () => {
     <div className="min-h-screen bg-background font-body">
       <Hero />
       <Differentials />
+      <OurStory />
+      <TheProcess />
       <Gallery />
       <Menu />
+      <Experiences />
+      <WhyChoose />
       <Testimonials />
       <FinalCTA />
       <Contact />
