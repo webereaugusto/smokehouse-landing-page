@@ -1,13 +1,34 @@
+import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-grill.jpg";
+import hero1 from "@/assets/hero-grill.jpg";
+import hero2 from "@/assets/premium-cuts.jpg";
+import hero3 from "@/assets/smoking-technique.jpg";
 
 const Hero = () => {
+  const images = [hero1, hero2, hero3];
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentIndex((prev) => (prev + 1) % images.length);
+    }, 3000);
+    return () => clearInterval(intervalId);
+  }, [images.length]);
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <div 
-        className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${heroImage})` }}
-      >
+      {/* Background slideshow layers */}
+      <div className="absolute inset-0">
+        {images.map((img, idx) => (
+          <div
+            key={idx}
+            className={`absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-in-out ${
+              idx === currentIndex ? "opacity-100" : "opacity-0"
+            }`}
+            style={{ backgroundImage: `url(${img})` }}
+          />
+        ))}
+        {/* Gradient overlay on top of all images */}
         <div className="absolute inset-0 bg-gradient-hero"></div>
       </div>
       
