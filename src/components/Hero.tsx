@@ -34,8 +34,8 @@ const Hero = () => {
       
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
         <h1 className="font-heading font-extrabold text-5xl md:text-7xl lg:text-8xl mb-6 text-foreground tracking-tight">
-          A casa de carnes gourmet<br />
-          <span className="text-primary">para o seu churrasco</span>
+          BBQ americano autêntico<br />
+          <span className="text-primary">para levar para o seu churrasco</span>
         </h1>
         
         <p className="font-body text-xl md:text-2xl mb-10 text-muted-foreground max-w-3xl mx-auto">
