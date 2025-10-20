@@ -10,7 +10,7 @@ const Gallery = () => {
   ];
 
   return (
-    <section className="py-24 px-4 bg-background">
+    <section id="galeria" className="py-24 px-4 bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="font-heading font-bold text-4xl md:text-5xl mb-4 text-foreground">

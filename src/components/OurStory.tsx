@@ -2,7 +2,7 @@ import { Flame } from "lucide-react";
 
 const OurStory = () => {
   return (
-    <section className="py-24 px-4 bg-gradient-section relative overflow-hidden">
+    <section id="sobre" className="py-24 px-4 bg-gradient-section relative overflow-hidden">
       <div className="absolute top-0 right-0 w-1/2 h-full bg-[radial-gradient(circle_at_top_right,_hsl(var(--flame)_/_0.1)_0%,_transparent_50%)]"></div>
       
       <div className="max-w-6xl mx-auto relative z-10">

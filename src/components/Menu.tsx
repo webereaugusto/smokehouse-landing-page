@@ -45,7 +45,7 @@ const Menu = () => {
   ];
 
   return (
-    <section className="py-24 px-4 bg-gradient-section">
+    <section id="cardapio" className="py-24 px-4 bg-gradient-section">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="font-heading font-bold text-4xl md:text-5xl mb-4 text-foreground">

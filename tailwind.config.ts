@@ -14,8 +14,10 @@ export default {
     },
     extend: {
       fontFamily: {
-        'heading': ['Montserrat', 'sans-serif'],
-        'body': ['Lato', 'sans-serif'],
+        'heading': ['Cinzel', 'Playfair Display', 'serif'],
+        'body': ['Montserrat', 'sans-serif'],
+        'brand': ['Cinzel', 'Playfair Display', 'serif'],
+        'condensed': ['Montserrat', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -55,6 +57,11 @@ export default {
         flame: "hsl(var(--flame))",
         wood: "hsl(var(--wood))",
         smoke: "hsl(var(--smoke))",
+        brand: {
+          black: "hsl(var(--brand-black))",
+          gold: "hsl(var(--brand-gold))",
+          'gold-dark': "hsl(var(--brand-gold-dark))",
+        },
       },
       backgroundImage: {
         'gradient-hero': 'var(--gradient-hero)',
