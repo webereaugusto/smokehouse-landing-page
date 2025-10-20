@@ -45,10 +45,10 @@ const Menu = () => {
   ];
 
   return (
-    <section id="cardapio" className="py-24 px-4 bg-gradient-section">
+    <section id="cardapio" className="py-24 px-4 bg-gradient-section" role="region" aria-labelledby="menu-heading">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="font-heading font-bold text-4xl md:text-5xl mb-4 text-foreground">
+          <h2 id="menu-heading" className="font-heading font-bold text-4xl md:text-5xl mb-4 text-foreground">
             Cortes <span className="text-primary">Exclusivos</span> para o seu churrasco
           </h2>
           <p className="font-body text-lg text-muted-foreground mb-6">

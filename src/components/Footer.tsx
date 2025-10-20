@@ -2,7 +2,7 @@ import { Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-charcoal py-12 px-4 border-t border-border/50">
+    <footer className="bg-charcoal py-12 px-4 border-t border-border/50" role="contentinfo">
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
@@ -18,23 +18,25 @@ const Footer = () => {
             <h4 className="font-heading font-semibold text-lg mb-4 text-foreground">
               Links Rápidos
             </h4>
-            <ul className="space-y-2 font-body text-muted-foreground">
-              <li>
-                <a href="#cardapio" className="hover:text-primary transition-colors">
-                  Cardápio
-                </a>
-              </li>
-              <li>
-                <a href="#galeria" className="hover:text-primary transition-colors">
-                  Galeria
-                </a>
-              </li>
-              <li>
-                <a href="#contato" className="hover:text-primary transition-colors">
-                  Contato
-                </a>
-              </li>
-            </ul>
+            <nav aria-label="Links do rodapé">
+              <ul className="space-y-2 font-body text-muted-foreground">
+                <li>
+                  <a href="#cardapio" className="hover:text-primary transition-colors" aria-label="Ir para seção Cardápio">
+                    Cardápio
+                  </a>
+                </li>
+                <li>
+                  <a href="#galeria" className="hover:text-primary transition-colors" aria-label="Ir para seção Galeria">
+                    Galeria
+                  </a>
+                </li>
+                <li>
+                  <a href="#contato" className="hover:text-primary transition-colors" aria-label="Ir para seção Contato">
+                    Contato
+                  </a>
+                </li>
+              </ul>
+            </nav>
           </div>
 
           <div>

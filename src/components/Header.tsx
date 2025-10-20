@@ -3,30 +3,34 @@ import logoImage from "@/assets/logo.webp";
 
 const Header = () => {
   return (
-    <header className="relative z-50 w-full bg-background/95 backdrop-blur-sm border-b border-brand-gold/20">
+    <header className="relative z-50 w-full bg-background/95 backdrop-blur-sm border-b border-brand-gold/20" role="banner">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <img
-              src={logoImage}
-              alt="WEST 1465 Logo"
-              className="h-14 w-auto filter brightness-110"
-            />
+            <a href="/" aria-label="WEST 1465 - Página inicial">
+              <img
+                src={logoImage}
+                alt="WEST 1465 - Casa de Carnes Gourmet"
+                className="h-14 w-auto filter brightness-110"
+                width="auto"
+                height="56"
+              />
+            </a>
           </div>
 
           {/* Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
-            <a href="#sobre" className="text-foreground hover:text-brand-gold transition-colors font-condensed font-medium">
+          <nav className="hidden md:flex items-center space-x-8" role="navigation" aria-label="Menu principal">
+            <a href="#sobre" className="text-foreground hover:text-brand-gold transition-colors font-condensed font-medium" aria-label="Ir para seção Sobre">
               Sobre
             </a>
-            <a href="#cardapio" className="text-foreground hover:text-brand-gold transition-colors font-condensed font-medium">
+            <a href="#cardapio" className="text-foreground hover:text-brand-gold transition-colors font-condensed font-medium" aria-label="Ir para seção Cardápio">
               Cardápio
             </a>
-            <a href="#galeria" className="text-foreground hover:text-brand-gold transition-colors font-condensed font-medium">
+            <a href="#galeria" className="text-foreground hover:text-brand-gold transition-colors font-condensed font-medium" aria-label="Ir para seção Galeria">
               Galeria
             </a>
-            <a href="#contato" className="text-foreground hover:text-brand-gold transition-colors font-condensed font-medium">
+            <a href="#contato" className="text-foreground hover:text-brand-gold transition-colors font-condensed font-medium" aria-label="Ir para seção Contato">
               Contato
             </a>
           </nav>

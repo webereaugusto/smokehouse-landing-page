@@ -16,9 +16,9 @@ const Hero = () => {
   }, [images.length]);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden" role="banner" aria-label="Seção principal">
       {/* Background slideshow layers */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0" aria-hidden="true">
         {images.map((img, idx) => (
           <div
             key={idx}
@@ -26,10 +26,11 @@ const Hero = () => {
               idx === currentIndex ? "opacity-100" : "opacity-0"
             }`}
             style={{ backgroundImage: `url(${img})` }}
+            aria-hidden="true"
           />
         ))}
         {/* Gradient overlay on top of all images */}
-        <div className="absolute inset-0 bg-gradient-hero"></div>
+        <div className="absolute inset-0 bg-gradient-hero" aria-hidden="true"></div>
       </div>
       
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
