@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import AmericanBBQ from "@/components/AmericanBBQ";
 import Differentials from "@/components/Differentials";
 import OurStory from "@/components/OurStory";
 import TheProcess from "@/components/TheProcess";
@@ -15,6 +16,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background font-body">
       <Hero />
+      <AmericanBBQ />
       <Differentials />
       <OurStory />
       <TheProcess />
