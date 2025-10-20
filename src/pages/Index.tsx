@@ -9,6 +9,7 @@ import Menu from "@/components/Menu";
 import Experiences from "@/components/Experiences";
 import WhyChoose from "@/components/WhyChoose";
 import Testimonials from "@/components/Testimonials";
+import VideoHighlight from "@/components/VideoHighlight";
 import FinalCTA from "@/components/FinalCTA";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -27,6 +28,7 @@ const Index = () => {
       <Experiences />
       <WhyChoose />
       <Testimonials />
+      <VideoHighlight />
       <FinalCTA />
       <Contact />
       <Footer />
