@@ -1,4 +1,5 @@
 import { Shield, Leaf, ChefHat, Clock, Award, Heart } from "lucide-react";
+import heroGrillImage from "@/assets/hero-grill.jpg";
 
 const WhyChoose = () => {
   const reasons = [
@@ -35,8 +36,16 @@ const WhyChoose = () => {
   ];
 
   return (
-    <section className="py-24 px-4 bg-background">
-      <div className="max-w-7xl mx-auto">
+    <section 
+      className="py-24 px-4 relative overflow-hidden bg-cover bg-center bg-no-repeat"
+      style={{ 
+        backgroundImage: `url(${heroGrillImage})`
+      }}
+    >
+      {/* Overlay escuro para melhorar legibilidade */}
+      <div className="absolute inset-0 bg-black/85"></div>
+      
+      <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
           <h2 className="font-heading font-bold text-4xl md:text-5xl mb-4 text-foreground">
             Por que escolher a <span className="text-primary">WEST 1465</span>?
