@@ -7,11 +7,11 @@ const FinalCTA = () => {
       
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <h2 className="font-heading font-bold text-4xl md:text-6xl mb-6 text-foreground">
-          Não espere mais
+          Leve a WEST 1465 para o seu churrasco
         </h2>
         
         <p className="font-body text-xl md:text-2xl text-muted-foreground mb-10 max-w-2xl mx-auto">
-          Reserve sua mesa ou peça agora e viva a experiência de churrasco à americana
+          Sem refeições no local. Visite nossa casa de carnes gourmet, escolha seus cortes e combine a retirada ou reserva pelo WhatsApp.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -20,19 +20,19 @@ const FinalCTA = () => {
             variant="hero"
             className="text-lg px-10 py-7 font-heading font-bold"
           >
-            Fazer Pedido
+            Ver Cortes
           </Button>
           <Button 
             size="lg" 
             variant="heroOutline"
             className="text-lg px-10 py-7 font-heading font-bold"
           >
-            Falar no WhatsApp
+            Reservar pelo WhatsApp
           </Button>
         </div>
         
         <p className="font-body text-sm text-muted-foreground mt-6">
-          Atendemos de terça a domingo • Aceite cartões e PIX
+          Atendimento presencial para compras • Reservas e dúvidas via WhatsApp • Aceitamos cartões e PIX
         </p>
       </div>
     </section>

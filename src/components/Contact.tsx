@@ -9,7 +9,7 @@ const Contact = () => {
             Venha nos <span className="text-primary">visitar</span>
           </h2>
           <p className="font-body text-lg text-muted-foreground">
-            Estamos prontos para proporcionar a melhor experiência de churrasco americano
+            Casa de carnes gourmet. Compre presencialmente ou reserve pelo WhatsApp. Não servimos refeições no local.
           </p>
         </div>
 
@@ -33,7 +33,7 @@ const Contact = () => {
                 <Phone className="w-6 h-6 text-primary" />
               </div>
               <div>
-                <h3 className="font-heading font-bold text-xl mb-2 text-foreground">Telefone</h3>
+                <h3 className="font-heading font-bold text-xl mb-2 text-foreground">WhatsApp / Telefone</h3>
                 <p className="font-body text-muted-foreground">
                   (11) 98765-4321<br />
                   (11) 3456-7890

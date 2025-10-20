@@ -34,12 +34,12 @@ const Hero = () => {
       
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
         <h1 className="font-heading font-extrabold text-5xl md:text-7xl lg:text-8xl mb-6 text-foreground tracking-tight">
-          Experimente o autêntico<br />
-          <span className="text-primary">churrasco americano</span>
+          A casa de carnes gourmet<br />
+          <span className="text-primary">para o seu churrasco</span>
         </h1>
         
         <p className="font-body text-xl md:text-2xl mb-10 text-muted-foreground max-w-3xl mx-auto">
-          Defumação artesanal • Cortes selecionados • Sabor inesquecível
+          Cortes premium e defumados autorais para levar. Sem refeições no local — visite, escolha seus cortes e leve a experiência WEST 1465 para a sua parrilla.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -48,14 +48,14 @@ const Hero = () => {
             variant="hero"
             className="text-lg px-8 py-6 font-heading font-bold"
           >
-            Ver Cardápio
+            Ver Cortes Exclusivos
           </Button>
           <Button 
             size="lg" 
             variant="heroOutline"
             className="text-lg px-8 py-6 font-heading font-bold"
           >
-            Reserve Agora
+            Reservar pelo WhatsApp
           </Button>
         </div>
       </div>

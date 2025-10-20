@@ -3,43 +3,43 @@ import { Button } from "@/components/ui/button";
 const Menu = () => {
   const menuItems = [
     {
-      name: "Brisket Premium",
-      description: "Maturado, defumado por 12 horas, servido em fatias suculentas.",
+      name: "Brisket Premium (para levar)",
+      description: "Maturado e defumado por ~12 horas. Embalado a vácuo, pronto para finalizar em casa.",
       highlight: "12h de defumação",
     },
     {
-      name: "Costela Suína Defumada",
-      description: "Fumada com madeira de nogueira, desossada e fatiada.",
+      name: "Costela Suína Defumada (para levar)",
+      description: "Defumada com madeira nobre. Embalada e refrigerada. Ideal para aquecer e servir.",
       highlight: "Madeira de nogueira",
     },
     {
       name: "Linguiça Artesanal BBQ",
-      description: "Feita internamente, defumada e grelhada, sabor marcante.",
+      description: "Produção própria. Ideal para a grelha. Vendida por peso.",
       highlight: "Produção própria",
     },
     {
-      name: "Pulled Pork",
-      description: "Lombo suíno desfiado após 10 horas de low & slow, derrete na boca.",
+      name: "Pulled Pork (para levar)",
+      description: "Cozido lentamente e desfiado. Perfeito para sanduíches. Embalado e refrigerado.",
       highlight: "Low & Slow",
     },
     {
       name: "Tri-Tip Defumado",
-      description: "Corte californiano macio, com crosta crocante e interior rosado.",
+      description: "Corte californiano selecionado. Ideal para fatiar na hora do churrasco.",
       highlight: "Especialidade da casa",
     },
     {
-      name: "Frango Inteiro Defumado",
-      description: "Marinado 24h, defumado até ficar com pele crocante e carne suculenta.",
+      name: "Frango Inteiro Defumado (para levar)",
+      description: "Marinado 24h e defumado lentamente. Vai embalado e pronto para finalizar no forno.",
       highlight: "Marinada especial",
     },
     {
       name: "Costela Bovina (Beef Ribs)",
-      description: "Gigante, suculenta, defumada por 8 horas com blend de especiarias.",
+      description: "Defumada por ~8 horas. Vendida por peça. Finalize na grelha para crocância.",
       highlight: "Porção generosa",
     },
     {
       name: "Peito de Peru Defumado",
-      description: "Temperado com ervas finas, defumado lentamente, extremamente macio.",
+      description: "Temperado com ervas finas. Perfeito fatiado frio ou aquecido. Vendido por peso.",
       highlight: "Opção leve",
     },
   ];
@@ -49,10 +49,10 @@ const Menu = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="font-heading font-bold text-4xl md:text-5xl mb-4 text-foreground">
-            Nossos <span className="text-primary">Destaques</span>
+            Cortes <span className="text-primary">Exclusivos</span> para o seu churrasco
           </h2>
           <p className="font-body text-lg text-muted-foreground">
-            Defumados artesanais que levam você direto aos EUA
+            Selecione, leve e finalize em casa. Sem refeições no local.
           </p>
         </div>
 
@@ -76,7 +76,7 @@ const Menu = () => {
               </p>
               
               <Button variant="menuItem" size="sm" className="font-heading">
-                Saiba Mais
+                Reservar pelo WhatsApp
               </Button>
             </div>
           ))}
