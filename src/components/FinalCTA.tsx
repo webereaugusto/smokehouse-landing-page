@@ -11,7 +11,7 @@ const FinalCTA = () => {
         </h2>
         
         <p className="font-body text-xl md:text-2xl text-muted-foreground mb-10 max-w-2xl mx-auto">
-          Sem refeições no local. Visite nossa casa de carnes gourmet, escolha seus cortes e combine a retirada ou reserva pelo WhatsApp.
+          Visite nossa casa de carnes gourmet, escolha seus cortes e combine a retirada ou reserva pelo WhatsApp.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

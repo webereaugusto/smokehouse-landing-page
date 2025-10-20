@@ -39,7 +39,7 @@ const Hero = () => {
         </h1>
         
         <p className="font-body text-xl md:text-2xl mb-10 text-muted-foreground max-w-3xl mx-auto">
-          Cortes premium e defumados autorais para levar. Sem refeições no local — visite, escolha seus cortes e leve a experiência WEST 1465 para a sua parrilla.
+          Cortes premium e defumados autorais para levar. Visite, escolha seus cortes e leve a experiência WEST 1465 para a sua parrilla.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

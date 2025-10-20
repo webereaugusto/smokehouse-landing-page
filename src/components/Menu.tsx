@@ -52,7 +52,7 @@ const Menu = () => {
             Cortes <span className="text-primary">Exclusivos</span> para o seu churrasco
           </h2>
           <p className="font-body text-lg text-muted-foreground">
-            Selecione, leve e finalize em casa. Sem refeições no local.
+            Selecione, leve e finalize em casa. O verdadeiro BBQ americano para encantar seus convidados.
           </p>
         </div>
 

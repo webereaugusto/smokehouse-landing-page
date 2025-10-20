@@ -9,7 +9,7 @@ const Contact = () => {
             Venha nos <span className="text-primary">visitar</span>
           </h2>
           <p className="font-body text-lg text-muted-foreground">
-            Casa de carnes gourmet. Compre presencialmente ou reserve pelo WhatsApp. Não servimos refeições no local.
+            Casa de carnes gourmet. Compre presencialmente ou reserve pelo WhatsApp.
           </p>
         </div>
 
