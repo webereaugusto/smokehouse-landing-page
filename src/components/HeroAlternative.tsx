@@ -19,11 +19,11 @@ const HeroAlternative = () => {
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left Column: Text Content */}
-          <div className="order-1 md:order-1">
+          <div className="order-1 md:order-1 text-center md:text-left">
             <img
               src={logoImage}
               alt="WEST 1465 Logo"
-              className="w-[200px] h-auto filter brightness-110 mb-6"
+              className="w-[200px] h-auto filter brightness-110 mb-6 mx-auto md:mx-0"
             />
             <h2 className="font-heading font-bold text-3xl md:text-4xl text-foreground mb-4">
               Venha nos conhecer
@@ -36,7 +36,7 @@ const HeroAlternative = () => {
             </p>
             
             {/* Cortes Nobres & Defumados Premium */}
-            <div className="flex items-center gap-2 mb-8">
+            <div className="flex items-center justify-center md:justify-start gap-2 mb-8">
               <span className="font-heading font-bold text-lg text-foreground">
                 Cortes Nobres & Defumados Premium
               </span>
@@ -46,7 +46,7 @@ const HeroAlternative = () => {
                 ))}
               </div>
             </div>
-            <div className="flex justify-start">
+            <div className="flex justify-center md:justify-start">
               <Button
                 size="lg"
                 variant="outline"
