@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://west-1465.vercel.app/sitemap.xml
+Sitemap: https://west1465.com.br/sitemap.xml
 
 # Crawl-delay for polite crawling
 Crawl-delay: 1
