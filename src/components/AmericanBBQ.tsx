@@ -13,36 +13,36 @@ const AmericanBBQ = () => {
           </div>
           
           <h2 className="font-heading font-bold text-4xl md:text-6xl mb-6 text-foreground">
-            Por que o <span className="text-primary">BBQ Americano</span> é tão especial?
+            A <span className="text-primary">Exclusividade</span> da Lenha de Café
           </h2>
           
           <p className="font-body text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            O churrasco americano não é apenas comida — é uma tradição centenária, uma filosofia de paciência e respeito pelo corte. A técnica "low & slow" transforma carnes simples em obras-primas culinárias, onde cada hora de defumação adiciona camadas profundas de sabor.
+            Nossa <strong>defumação exclusiva na lenha de café</strong> confere um sabor único e inconfundível aos nossos produtos. Uma técnica artesanal desenvolvida ao longo de mais de 10 anos, que combina tradição americana com inovação brasileira para criar sabores impossíveis de replicar.
           </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           <div className="bg-gradient-to-br from-secondary/30 to-secondary/10 backdrop-blur-sm rounded-lg p-8 border border-border/50 hover:border-primary/30 transition-all">
             <MapPin className="w-10 h-10 text-primary mb-4" />
-            <h3 className="font-heading font-bold text-2xl mb-3 text-foreground">Raízes no Sul dos EUA</h3>
+            <h3 className="font-heading font-bold text-2xl mb-3 text-foreground">Lenha de Café Exclusiva</h3>
             <p className="font-body text-muted-foreground leading-relaxed">
-              Texas, Carolina do Norte, Kansas City, Memphis — cada região desenvolveu seu estilo único de defumação e tempero, criando uma cultura rica e diversificada de pit-barbecue que atravessou gerações.
+              Nossa defumação utiliza exclusivamente lenha de café, conferindo um sabor único e inconfundível que diferencia nossos produtos no mercado. Uma técnica artesanal desenvolvida ao longo de mais de 10 anos.
             </p>
           </div>
 
           <div className="bg-gradient-to-br from-secondary/30 to-secondary/10 backdrop-blur-sm rounded-lg p-8 border border-border/50 hover:border-primary/30 transition-all">
             <History className="w-10 h-10 text-primary mb-4" />
-            <h3 className="font-heading font-bold text-2xl mb-3 text-foreground">Séculos de Tradição</h3>
+            <h3 className="font-heading font-bold text-2xl mb-3 text-foreground">10+ Anos de Experiência</h3>
             <p className="font-body text-muted-foreground leading-relaxed">
-              Desde o século XVII, a defumação lenta sobre madeira nobre é a arte de transformar cortes rústicos em carnes incrivelmente macias, suculentas e repletas de sabor defumado que derrete na boca.
+              Mais de uma década dedicada ao aperfeiçoamento da arte da defumação. Cada produto é resultado de anos de experiência, refinamento e dedicação à excelência culinária.
             </p>
           </div>
 
           <div className="bg-gradient-to-br from-secondary/30 to-secondary/10 backdrop-blur-sm rounded-lg p-8 border border-border/50 hover:border-primary/30 transition-all">
             <Star className="w-10 h-10 text-primary mb-4" />
-            <h3 className="font-heading font-bold text-2xl mb-3 text-foreground">Sabor Incomparável</h3>
+            <h3 className="font-heading font-bold text-2xl mb-3 text-foreground">Qualidade Super Premium</h3>
             <p className="font-body text-muted-foreground leading-relaxed">
-              O segredo está no tempo: 8 a 16 horas de defumação em temperatura baixa e constante permite que a fumaça penetre profundamente nas fibras, criando aquele anel de fumaça característico e sabor inconfundível.
+              Produção artesanal com total exclusividade de sabores, apresentação e qualidade super premium. Cada corte é selecionado criteriosamente e defumado seguindo protocolos únicos.
             </p>
           </div>
         </div>
@@ -54,15 +54,15 @@ const AmericanBBQ = () => {
             <Flame className="w-12 h-12 text-primary mx-auto mb-6" />
             
             <h3 className="font-heading font-bold text-3xl md:text-4xl mb-6 text-foreground">
-              Nossa Inspiração Nasceu Aqui
+              Exclusividade Total para sua Cozinha
             </h3>
             
             <p className="font-body text-lg text-muted-foreground max-w-4xl mx-auto mb-6 leading-relaxed">
-              Apaixonados por essa tradição milenar, viajamos pelos Estados Unidos para aprender com os verdadeiros mestres do pit-barbecue. Passamos semanas em smokehouses lendárias, absorvendo cada técnica, cada segredo passado de geração em geração.
+              Nossa <strong>defumação exclusiva na lenha de café</strong> é resultado de mais de 10 anos de experiência e refinamento. Cada produto é desenvolvido especificamente para restaurantes que buscam diferenciação e exclusividade em seus pratos.
             </p>
             
             <p className="font-body text-lg text-foreground max-w-4xl mx-auto font-semibold">
-              Voltamos com uma missão: trazer essa experiência autêntica para o Brasil, mantendo a mesma dedicação, as mesmas técnicas e o mesmo respeito pela arte da defumação que faz do BBQ americano uma lenda mundial.
+              <strong>Costelinha, Brisket e Cupim</strong> defumados com total exclusividade de sabores, apresentação e qualidade super premium. Produtos únicos que elevam o nível do seu estabelecimento e encantam os clientes mais exigentes.
             </p>
           </div>
         </div>

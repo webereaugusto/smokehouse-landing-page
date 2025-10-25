@@ -5,10 +5,10 @@ const Contact = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="font-heading font-bold text-4xl md:text-5xl mb-4 text-foreground">
-            Experiência única em carnes defumadas
+            Exclusividade para sua cozinha
           </h2>
           <p className="font-body text-lg text-muted-foreground">
-            Casa de carnes gourmet. Compre presencialmente ou reserve pelo WhatsApp.
+            Carnes nobres defumadas na lenha de café. Mais de 10 anos de experiência em produção artesanal com total exclusividade de sabores e qualidade super premium.
           </p>
         </div>
 

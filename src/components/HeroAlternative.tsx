@@ -26,19 +26,19 @@ const HeroAlternative = () => {
               className="w-[200px] h-auto filter brightness-110 mb-6 mx-auto md:mx-0"
             />
             <h2 className="font-heading font-bold text-3xl md:text-4xl text-foreground mb-4">
-              Venha nos conhecer
+              Exclusividade para sua cozinha
             </h2>
             <p className="font-heading font-bold text-xl md:text-2xl text-primary mb-6">
-              onde cada corte conta uma história
+              onde cada corte é uma obra de arte
             </p>
             <p className="font-body text-base md:text-lg text-muted-foreground mb-8">
-              Prepare-se para uma experiência fantástica! Aqui você encontra cortes premium e únicos, defumados artesanalmente, prontos para transformar seu churrasco e encantar seus convidados.
+              <strong>Defumação exclusiva na lenha de café</strong> há mais de 10 anos. Produção artesanal com total exclusividade de sabores, apresentação e qualidade super premium para restaurantes que buscam diferenciação.
             </p>
             
-            {/* Cortes Nobres & Defumados Premium */}
+            {/* Produtos Premium */}
             <div className="flex items-center justify-center md:justify-start gap-2 mb-8">
               <span className="font-heading font-bold text-lg text-foreground">
-                Cortes Nobres & Defumados Premium
+                Costelinha • Brisket • Cupim Defumados
               </span>
               <div className="flex gap-1">
                 {[...Array(5)].map((_, i) => (
@@ -53,7 +53,7 @@ const HeroAlternative = () => {
                 className="border-brand-gold text-brand-gold hover:bg-brand-gold hover:text-brand-black font-condensed font-semibold"
                 onClick={() => window.open('https://wa.me/551932733108', '_blank')}
               >
-                COMO CHEGAR
+                SOLICITAR ORÇAMENTO
               </Button>
             </div>
           </div>

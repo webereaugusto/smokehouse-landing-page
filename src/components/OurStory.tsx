@@ -14,43 +14,43 @@ const OurStory = () => {
             </div>
             
             <h2 className="font-heading font-bold text-4xl md:text-5xl mb-6 text-foreground">
-              Paixão por <span className="text-primary">autenticidade</span>
+              Mais de <span className="text-primary">10 anos</span> de exclusividade
             </h2>
             
             <div className="space-y-4 font-body text-muted-foreground text-lg">
               <p>
-                A WEST 1465 nasceu do sonho de trazer a verdadeira experiência do churrasco americano para o Brasil. Inspirados pelas tradicionais smokehouses do sul dos Estados Unidos, criamos um espaço onde cada corte é tratado com respeito e cada defumação é uma arte.
+                A WEST 1465 é especializada em <strong>carnes nobres defumadas</strong> para restaurantes premium. Nossa expertise única combina tradição americana com inovação brasileira, criando produtos de exclusividade total que diferenciam seu estabelecimento.
               </p>
               
               <p>
-                Nossa jornada começou com uma viagem pelo Texas, Kansas City e Carolina do Norte, onde aprendemos os segredos da defumação low & slow com os mestres do pit-barbecue. Voltamos determinados a replicar essa experiência autêntica.
+                <strong>Defumação exclusiva na lenha de café</strong> - uma técnica artesanal que desenvolvemos ao longo de mais de uma década. A lenha de café confere um sabor único e inconfundível, impossível de replicar com outras madeiras.
               </p>
               
               <p>
-                Hoje, selecionamos pessoalmente cada corte, utilizamos apenas madeiras nobres na defumação e seguimos rigorosamente os tempos e temperaturas que transformam carne em uma experiência inesquecível.
+                Produção artesanal com <strong>total exclusividade de sabores, apresentação e qualidade super premium</strong>. Cada corte é selecionado criteriosamente e defumado seguindo nossos protocolos únicos, garantindo consistência e excelência para seus clientes mais exigentes.
               </p>
             </div>
           </div>
 
           <div className="grid grid-cols-2 gap-4">
             <div className="bg-secondary/50 backdrop-blur-sm rounded-lg p-6 border border-border/50">
-              <div className="text-4xl font-heading font-bold text-primary mb-2">12h+</div>
-              <div className="font-body text-muted-foreground">Defumação média por brisket</div>
+              <div className="text-4xl font-heading font-bold text-primary mb-2">10+</div>
+              <div className="font-body text-muted-foreground">Anos de experiência</div>
             </div>
             
             <div className="bg-secondary/50 backdrop-blur-sm rounded-lg p-6 border border-border/50">
               <div className="text-4xl font-heading font-bold text-primary mb-2">100%</div>
-              <div className="font-body text-muted-foreground">Madeira nobre na defumação</div>
+              <div className="font-body text-muted-foreground">Lenha de café exclusiva</div>
             </div>
             
             <div className="bg-secondary/50 backdrop-blur-sm rounded-lg p-6 border border-border/50">
-              <div className="text-4xl font-heading font-bold text-primary mb-2">5★</div>
-              <div className="font-body text-muted-foreground">Avaliação média dos clientes</div>
+              <div className="text-4xl font-heading font-bold text-primary mb-2">3</div>
+              <div className="font-body text-muted-foreground">Produtos exclusivos</div>
             </div>
             
             <div className="bg-secondary/50 backdrop-blur-sm rounded-lg p-6 border border-border/50">
-              <div className="text-4xl font-heading font-bold text-primary mb-2">2020</div>
-              <div className="font-body text-muted-foreground">Ano de fundação</div>
+              <div className="text-4xl font-heading font-bold text-primary mb-2">100%</div>
+              <div className="font-body text-muted-foreground">Foco em restaurantes</div>
             </div>
           </div>
         </div>

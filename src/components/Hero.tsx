@@ -34,29 +34,34 @@ const Hero = () => {
       </div>
       
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
-        <h1 className="font-heading font-extrabold text-4xl md:text-7xl lg:text-8xl mb-6 text-foreground tracking-tight">
-          BBQ americano autêntico<br />
-          <span className="text-primary">para levar para o seu churrasco</span>
+        <h1 className="font-heading font-extrabold text-5xl md:text-6xl lg:text-7xl mb-6 text-foreground tracking-tight">
+          Carnes Premium Defumadas<br />
+          <span className="text-primary">ao Estilo BBQ Americano</span><br />
+          <span className="text-xl md:text-2xl lg:text-3xl font-normal text-muted-foreground">
+            Sabores Raros e Autênticos para seu Restaurante
+          </span>
         </h1>
         
-        <p className="font-body text-xl md:text-2xl mb-10 text-muted-foreground max-w-3xl mx-auto">
-          Cortes premium e defumados autorais para levar. Visite, escolha seus cortes e leve a experiência WEST 1465 para a sua parrilla.
+        <p className="font-body text-base md:text-lg mb-10 text-muted-foreground max-w-3xl mx-auto">
+          <strong>Costelinha, Brisket e Cupim</strong> defumados na lenha de café. Mais de 10 anos de experiência em produção artesanal com total exclusividade de sabores e qualidade super premium.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button 
             size="lg" 
             variant="hero"
-            className="text-lg px-8 py-6 font-heading font-bold"
+            className="text-base px-6 py-4 font-heading font-bold"
+            onClick={() => window.open('https://wa.me/551932733108', '_blank')}
           >
-            Ver Cortes Exclusivos
+            Solicitar Orçamento
           </Button>
           <Button 
             size="lg" 
             variant="heroOutline"
-            className="text-lg px-8 py-6 font-heading font-bold"
+            className="text-base px-6 py-4 font-heading font-bold"
+            onClick={() => window.open('https://wa.me/551932733108', '_blank')}
           >
-            Reservar pelo WhatsApp
+            Falar com Consultor
           </Button>
         </div>
       </div>

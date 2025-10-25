@@ -7,17 +7,17 @@ const FinalCTA = () => {
       
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <h2 className="font-heading font-bold text-4xl md:text-6xl mb-6 text-foreground">
-          Leve a WEST 1465 para o seu churrasco
+          Diferencie sua cozinha com exclusividade
         </h2>
         
         <p className="font-body text-xl md:text-2xl text-muted-foreground mb-6 max-w-2xl mx-auto">
-          Visite nossa casa de carnes gourmet, escolha seus cortes e combine a retirada ou reserva pelo WhatsApp.
+          Produtos únicos defumados na lenha de café. Mais de 10 anos de experiência em produção artesanal com total exclusividade de sabores e qualidade super premium.
         </p>
         
-        {/* Cortes Nobres & Defumados Premium */}
+        {/* Produtos Premium */}
         <div className="flex items-center justify-center gap-2 mb-10">
           <span className="font-heading font-bold text-xl text-foreground">
-            Cortes Nobres & Defumados Premium
+            Costelinha • Brisket • Cupim Defumados
           </span>
           <div className="flex gap-1">
             {[...Array(5)].map((_, i) => (
@@ -31,9 +31,9 @@ const FinalCTA = () => {
             size="lg" 
             variant="hero"
             className="text-lg px-10 py-7 font-heading font-bold"
-            onClick={() => document.getElementById('cardapio')?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => window.open('https://wa.me/551932733108', '_blank')}
           >
-            Ver Cortes
+            Solicitar Orçamento
           </Button>
           <Button 
             size="lg" 
@@ -41,12 +41,12 @@ const FinalCTA = () => {
             className="text-lg px-10 py-7 font-heading font-bold"
             onClick={() => window.open('https://wa.me/551932733108', '_blank')}
           >
-            Reservar pelo WhatsApp
+            Falar com Consultor
           </Button>
         </div>
         
         <p className="font-body text-sm text-muted-foreground mt-6">
-          Atendimento presencial para compras • Reservas e dúvidas via WhatsApp • Aceitamos cartões e PIX
+          Atendimento especializado • Orçamentos personalizados via WhatsApp • Qualidade super premium garantida
         </p>
       </div>
     </section>

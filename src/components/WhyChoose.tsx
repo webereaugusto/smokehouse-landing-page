@@ -5,33 +5,33 @@ const WhyChoose = () => {
   const reasons = [
     {
       icon: Shield,
-      title: "Qualidade Garantida",
-      description: "Certificação de origem e rastreabilidade de todos os cortes",
+      title: "Exclusividade Total",
+      description: "Defumação exclusiva na lenha de café - sabor único e inconfundível",
     },
     {
       icon: Leaf,
-      title: "Sustentabilidade",
-      description: "Fornecedores sustentáveis e madeira de reflorestamento",
+      title: "10+ Anos de Experiência",
+      description: "Mais de uma década dedicada ao aperfeiçoamento da arte da defumação",
     },
     {
       icon: ChefHat,
-      title: "Pit Masters Certificados",
-      description: "Equipe treinada nas melhores smokehouses americanas",
+      title: "Qualidade Super Premium",
+      description: "Produção artesanal com total exclusividade de sabores e apresentação",
     },
     {
       icon: Clock,
-      title: "Tradição Respeitada",
-      description: "Técnicas centenárias de defumação mantidas à risca",
+      title: "Foco Especializado",
+      description: "Produtos desenvolvidos especificamente para restaurantes premium",
     },
     {
       icon: Award,
-      title: "Prêmios & Reconhecimento",
-      description: "Eleito melhor churrasco americano da região 2023/2024",
+      title: "Produtos Únicos",
+      description: "Costelinha, Brisket e Cupim com sabores impossíveis de replicar",
     },
     {
       icon: Heart,
-      title: "Paixão em Cada Detalhe",
-      description: "Do corte ao prato, cada etapa feita com dedicação",
+      title: "Diferenciação Garantida",
+      description: "Produtos que elevam o nível do seu estabelecimento",
     },
   ];
 
@@ -51,7 +51,7 @@ const WhyChoose = () => {
             Por que escolher a <span className="text-primary">WEST 1465</span>?
           </h2>
           <p className="font-body text-lg text-muted-foreground max-w-3xl mx-auto">
-            Mais do que churrasco, é uma experiência autêntica que combina tradição americana com excelência brasileira
+            Exclusividade total para sua cozinha. Defumação na lenha de café com mais de 10 anos de experiência em produção artesanal
           </p>
         </div>
 

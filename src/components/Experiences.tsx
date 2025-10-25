@@ -1,28 +1,25 @@
 import { Button } from "@/components/ui/button";
-import { Users, Award, Heart } from "lucide-react";
+import { Search, Clock, Flame } from "lucide-react";
 
 const Experiences = () => {
-  const experiences = [
+  const processes = [
     {
-      icon: Users,
-      name: "Combo Família",
-      description: "Brisket, costela suína, linguiça artesanal, acompanhamentos para 4 pessoas.",
-      serves: "4-6 pessoas",
-      highlight: "Perfeito para reunir",
+      icon: Search,
+      name: "Seleção de Carnes Premium",
+      description: "Selecionamos criteriosamente apenas os melhores cortes nobres. Cada peça é avaliada por nossos especialistas para garantir a qualidade super premium que diferencia nossos produtos.",
+      highlight: "Qualidade garantida",
     },
     {
-      icon: Award,
-      name: "Experiência Premium",
-      description: "Degustação completa: 5 cortes defumados, molhos especiais, sides artesanais.",
-      serves: "2-3 pessoas",
-      highlight: "Melhor escolha",
+      icon: Clock,
+      name: "Maturação e Temperos",
+      description: "Processo de maturação controlada seguido de temperos artesanais exclusivos. Cada corte recebe tratamento individual com especiarias selecionadas e técnicas desenvolvidas ao longo de 10+ anos.",
+      highlight: "Técnica exclusiva",
     },
     {
-      icon: Heart,
-      name: "Romântico BBQ",
-      description: "Seleção de 3 cortes premium, vinho da casa, sobremesa especial.",
-      serves: "2 pessoas",
-      highlight: "Experiência única",
+      icon: Flame,
+      name: "Defumação na Lenha de Café",
+      description: "Defumação exclusiva na lenha de café por 12+ horas. Técnica artesanal que confere sabor único e inconfundível, impossível de replicar com outras madeiras.",
+      highlight: "Exclusividade total",
     },
   ];
 
@@ -33,46 +30,43 @@ const Experiences = () => {
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
           <h2 className="font-heading font-bold text-4xl md:text-5xl mb-4 text-foreground">
-            <span className="text-primary">Experiências</span> Especiais
+            Nosso <span className="text-primary">Processo</span> Artesanal
           </h2>
           <p className="font-body text-lg text-muted-foreground">
-            Combos pensados para tornar sua visita ainda mais memorável
+            Mais de 10 anos de experiência em produção artesanal com total exclusividade de sabores e qualidade super premium
           </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
-          {experiences.map((exp, index) => (
+          {processes.map((process, index) => (
             <div
               key={index}
               className="bg-secondary/30 backdrop-blur-sm rounded-lg overflow-hidden shadow-card hover:shadow-glow transition-all duration-300 border border-border/50 group"
             >
               <div className="bg-gradient-to-br from-primary/20 to-primary/5 p-6 border-b border-border/50">
                 <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mb-4 mx-auto group-hover:bg-primary/30 transition-colors">
-                  <exp.icon className="w-8 h-8 text-primary" />
+                  <process.icon className="w-8 h-8 text-primary" />
                 </div>
                 
                 <span className="inline-block bg-primary/10 text-primary text-xs font-heading font-semibold px-3 py-1 rounded-full mb-2">
-                  {exp.highlight}
+                  {process.highlight}
                 </span>
                 
                 <h3 className="font-heading font-bold text-2xl text-foreground text-center">
-                  {exp.name}
+                  {process.name}
                 </h3>
               </div>
               
               <div className="p-6">
-                <p className="font-body text-muted-foreground mb-4 min-h-[80px]">
-                  {exp.description}
+                <p className="font-body text-muted-foreground mb-6 min-h-[120px]">
+                  {process.description}
                 </p>
                 
-                <div className="flex items-center justify-between mb-6 pb-4 border-b border-border/50">
-                  <span className="font-body text-sm text-muted-foreground">Serve</span>
-                  <span className="font-heading font-semibold text-primary">{exp.serves}</span>
+                <div className="flex items-center justify-center">
+                  <span className="font-heading font-semibold text-primary text-sm">
+                    Processo exclusivo WEST 1465
+                  </span>
                 </div>
-                
-                <Button variant="menuItem" className="w-full font-heading">
-                  Reservar Agora
-                </Button>
               </div>
             </div>
           ))}

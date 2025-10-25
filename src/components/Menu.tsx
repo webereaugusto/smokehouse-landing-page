@@ -3,44 +3,19 @@ import { Button } from "@/components/ui/button";
 const Menu = () => {
   const menuItems = [
     {
-      name: "Brisket Premium (para levar)",
-      description: "Maturado e defumado por ~12 horas. Embalado a vácuo, pronto para finalizar em casa.",
-      highlight: "12h de defumação",
+      name: "COSTELINHA DEFUMADA",
+      description: "Corte nobre defumado exclusivamente na lenha de café. Sabor único e inconfundível que diferencia seu restaurante. Produção artesanal com total exclusividade.",
+      highlight: "Lenha de café exclusiva",
     },
     {
-      name: "Costela Suína Defumada (para levar)",
-      description: "Defumada com madeira nobre. Embalada e refrigerada. Ideal para aquecer e servir.",
-      highlight: "Madeira de nogueira",
+      name: "BRISKET PREMIUM",
+      description: "Maturado e defumado por 12+ horas na lenha de café. Textura única e sabor profundo impossível de replicar. Qualidade super premium para clientes exigentes.",
+      highlight: "12h+ defumação artesanal",
     },
     {
-      name: "Linguiça Artesanal BBQ",
-      description: "Produção própria. Ideal para a grelha. Vendida por peso.",
-      highlight: "Produção própria",
-    },
-    {
-      name: "Pulled Pork (para levar)",
-      description: "Cozido lentamente e desfiado. Perfeito para sanduíches. Embalado e refrigerado.",
-      highlight: "Low & Slow",
-    },
-    {
-      name: "Tri-Tip Defumado",
-      description: "Corte californiano selecionado. Ideal para fatiar na hora do churrasco.",
-      highlight: "Especialidade da casa",
-    },
-    {
-      name: "Frango Inteiro Defumado (para levar)",
-      description: "Marinado 24h e defumado lentamente. Vai embalado e pronto para finalizar no forno.",
-      highlight: "Marinada especial",
-    },
-    {
-      name: "Costela Bovina (Beef Ribs)",
-      description: "Defumada por ~8 horas. Vendida por peça. Finalize na grelha para crocância.",
-      highlight: "Porção generosa",
-    },
-    {
-      name: "Peito de Peru Defumado",
-      description: "Temperado com ervas finas. Perfeito fatiado frio ou aquecido. Vendido por peso.",
-      highlight: "Opção leve",
+      name: "CUPIM DEFUMADO",
+      description: "Corte brasileiro elevado à excelência com defumação na lenha de café. Sabor exclusivo que combina tradição nacional com técnica americana refinada.",
+      highlight: "Exclusividade total",
     },
   ];
 
@@ -49,16 +24,16 @@ const Menu = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 id="menu-heading" className="font-heading font-bold text-4xl md:text-5xl mb-4 text-foreground">
-            Cortes <span className="text-primary">Exclusivos</span> para o seu churrasco
+            Produtos <span className="text-primary">Exclusivos</span> para sua Cozinha
           </h2>
           <p className="font-body text-lg text-muted-foreground mb-6">
-            Selecione, leve e finalize em casa. O verdadeiro BBQ americano para encantar seus convidados.
+            Carnes nobres defumadas na lenha de café. Mais de 10 anos de experiência em produção artesanal com total exclusividade de sabores e qualidade super premium.
           </p>
           
-          {/* Cortes Nobres & Defumados Premium */}
+          {/* Produtos Premium */}
           <div className="flex items-center justify-center gap-2 mb-8">
             <span className="font-heading font-bold text-lg text-foreground">
-              Cortes Nobres & Defumados Premium
+              Costelinha • Brisket • Cupim Defumados
             </span>
             <div className="flex gap-1">
               {[...Array(5)].map((_, i) => (
@@ -68,7 +43,7 @@ const Menu = () => {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-3 gap-6">
           {menuItems.map((item, index) => (
             <div
               key={index}
@@ -87,8 +62,13 @@ const Menu = () => {
                 {item.description}
               </p>
               
-              <Button variant="menuItem" size="sm" className="font-heading">
-                Reservar pelo WhatsApp
+              <Button 
+                variant="menuItem" 
+                size="sm" 
+                className="font-heading"
+                onClick={() => window.open('https://wa.me/551932733108', '_blank')}
+              >
+                Solicitar Orçamento
               </Button>
             </div>
           ))}
