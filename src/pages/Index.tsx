@@ -7,6 +7,7 @@ import OurStory from "@/components/OurStory";
 import TheProcess from "@/components/TheProcess";
 import Gallery from "@/components/Gallery";
 import Menu from "@/components/Menu";
+import Events from "@/components/Events";
 import Experiences from "@/components/Experiences";
 import WhyChoose from "@/components/WhyChoose";
 import Testimonials from "@/components/Testimonials";
@@ -27,6 +28,7 @@ const Index = () => {
       <TheProcess />
       <Gallery />
       <Menu />
+      <Events />
       <Experiences />
       <WhyChoose />
       <Testimonials />

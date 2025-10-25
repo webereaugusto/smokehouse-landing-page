@@ -14,20 +14,20 @@ const OurStory = () => {
             </div>
             
             <h2 className="font-heading font-bold text-4xl md:text-5xl mb-6 text-foreground">
-              Mais de <span className="text-primary">10 anos</span> de exclusividade
+              Mais de <span className="text-primary">10 anos</span> de tradição
             </h2>
             
             <div className="space-y-4 font-body text-muted-foreground text-lg">
               <p>
-                A WEST 1465 é especializada em <strong>carnes nobres defumadas</strong> para restaurantes premium. Nossa expertise única combina tradição americana com inovação brasileira, criando produtos de exclusividade total que diferenciam seu estabelecimento.
+                A WEST 1465 é especializada em <strong>carnes nobres defumadas</strong> para restaurantes premium. Nossa expertise única combina tradição americana com inovação brasileira, criando produtos únicos que diferenciam seu estabelecimento.
               </p>
               
               <p>
-                <strong>Defumação exclusiva na lenha de café</strong> - uma técnica artesanal que desenvolvemos ao longo de mais de uma década. A lenha de café confere um sabor único e inconfundível, impossível de replicar com outras madeiras.
+                <strong>Defumação especial na lenha de café</strong> - uma técnica artesanal que desenvolvemos ao longo de mais de uma década. A lenha de café confere um sabor único e inconfundível, impossível de replicar com outras madeiras.
               </p>
               
               <p>
-                Produção artesanal com <strong>total exclusividade de sabores, apresentação e qualidade super premium</strong>. Cada corte é selecionado criteriosamente e defumado seguindo nossos protocolos únicos, garantindo consistência e excelência para seus clientes mais exigentes.
+                Produção artesanal com <strong>sabores únicos, apresentação e qualidade super premium</strong>. Cada corte é selecionado criteriosamente e defumado seguindo nossos protocolos únicos, garantindo consistência e excelência para seus clientes mais exigentes.
               </p>
             </div>
           </div>
@@ -40,12 +40,12 @@ const OurStory = () => {
             
             <div className="bg-secondary/50 backdrop-blur-sm rounded-lg p-6 border border-border/50">
               <div className="text-4xl font-heading font-bold text-primary mb-2">100%</div>
-              <div className="font-body text-muted-foreground">Lenha de café exclusiva</div>
+              <div className="font-body text-muted-foreground">Lenha de café especial</div>
             </div>
             
             <div className="bg-secondary/50 backdrop-blur-sm rounded-lg p-6 border border-border/50">
               <div className="text-4xl font-heading font-bold text-primary mb-2">3</div>
-              <div className="font-body text-muted-foreground">Produtos exclusivos</div>
+              <div className="font-body text-muted-foreground">Produtos únicos</div>
             </div>
             
             <div className="bg-secondary/50 backdrop-blur-sm rounded-lg p-6 border border-border/50">

@@ -7,7 +7,7 @@ const FinalCTA = () => {
       
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <h2 className="font-heading font-bold text-4xl md:text-6xl mb-6 text-foreground">
-          Diferencie sua cozinha com exclusividade
+          Diferencie seu restaurante com qualidade
         </h2>
         
         <p className="font-body text-xl md:text-2xl text-muted-foreground mb-6 max-w-2xl mx-auto">

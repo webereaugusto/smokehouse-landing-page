@@ -43,7 +43,7 @@ const Hero = () => {
         </h1>
         
         <p className="font-body text-base md:text-lg mb-10 text-muted-foreground max-w-3xl mx-auto">
-          <strong>Costelinha, Brisket e Cupim</strong> defumados na lenha de café. Mais de 10 anos de experiência em produção artesanal com total exclusividade de sabores e qualidade super premium.
+          <strong>Costelinha, Brisket e Cupim</strong> defumados na lenha de café. Mais de 10 anos de experiência em produção artesanal com sabores únicos e qualidade super premium.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

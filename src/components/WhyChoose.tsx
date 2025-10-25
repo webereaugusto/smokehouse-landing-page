@@ -5,8 +5,8 @@ const WhyChoose = () => {
   const reasons = [
     {
       icon: Shield,
-      title: "Exclusividade Total",
-      description: "Defumação exclusiva na lenha de café - sabor único e inconfundível",
+      title: "Qualidade Total",
+      description: "Defumação especial na lenha de café - sabor único e inconfundível",
     },
     {
       icon: Leaf,
@@ -51,7 +51,7 @@ const WhyChoose = () => {
             Por que escolher a <span className="text-primary">WEST 1465</span>?
           </h2>
           <p className="font-body text-lg text-muted-foreground max-w-3xl mx-auto">
-            Exclusividade total para sua cozinha. Defumação na lenha de café com mais de 10 anos de experiência em produção artesanal
+            Qualidade premium para seu restaurante. Defumação na lenha de café com mais de 10 anos de experiência em produção artesanal
           </p>
         </div>
 

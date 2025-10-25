@@ -19,7 +19,7 @@ const Experiences = () => {
       icon: Flame,
       name: "Defumação na Lenha de Café",
       description: "Defumação exclusiva na lenha de café por 12+ horas. Técnica artesanal que confere sabor único e inconfundível, impossível de replicar com outras madeiras.",
-      highlight: "Exclusividade total",
+      highlight: "Qualidade total",
     },
   ];
 

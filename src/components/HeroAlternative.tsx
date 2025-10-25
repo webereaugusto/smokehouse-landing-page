@@ -26,13 +26,13 @@ const HeroAlternative = () => {
               className="w-[200px] h-auto filter brightness-110 mb-6 mx-auto md:mx-0"
             />
             <h2 className="font-heading font-bold text-3xl md:text-4xl text-foreground mb-4">
-              Exclusividade para sua cozinha
+              Qualidade Premium para seu restaurante
             </h2>
             <p className="font-heading font-bold text-xl md:text-2xl text-primary mb-6">
               onde cada corte é uma obra de arte
             </p>
             <p className="font-body text-base md:text-lg text-muted-foreground mb-8">
-              <strong>Defumação exclusiva na lenha de café</strong> há mais de 10 anos. Produção artesanal com total exclusividade de sabores, apresentação e qualidade super premium para restaurantes que buscam diferenciação.
+              <strong>Defumação especial na lenha de café</strong> há mais de 10 anos. Produção artesanal com sabores únicos, apresentação e qualidade super premium para restaurantes que buscam diferenciação.
             </p>
             
             {/* Produtos Premium */}

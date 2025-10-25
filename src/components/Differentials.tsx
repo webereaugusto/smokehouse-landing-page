@@ -1,7 +1,7 @@
 import { Flame, Clock, Users } from "lucide-react";
-import premiumCuts from "@/assets/premium-cuts.jpg";
-import smokingTechnique from "@/assets/smoking-technique.jpg";
-import ambiente from "@/assets/ambiente.jpg";
+import briskethand from "@/assets/briskthand.webp";
+import cupimhand from "@/assets/cupimhand.webp";
+import costelahand from "@/assets/costelahand.webp";
 
 const Differentials = () => {
   const items = [
@@ -9,19 +9,19 @@ const Differentials = () => {
       icon: Flame,
       title: "Ingredientes Premium & Origem Selecionada",
       description: "Cortes nobremente escolhidos, maturados e defumados com precisão.",
-      image: premiumCuts,
+      image: briskethand,
     },
     {
       icon: Clock,
       title: "Técnicas Tradicionais de Defumação",
       description: "Low & Slow como manda o ritual americano de BBQ – sabor profundo, textura irrepreensível.",
-      image: smokingTechnique,
+      image: cupimhand,
     },
     {
       icon: Users,
-      title: "Ambiente & Atendimento Especializado",
-      description: "Ambiente inspirador de smoke-house americana, pronto para receber você e sua turma.",
-      image: ambiente,
+      title: "Experiência Americana Autêntica",
+      description: "Oferecemos uma verdadeira experiência americana em seu restaurante, com produtos que elevam o nível do seu estabelecimento.",
+      image: costelahand,
     },
   ];
 

@@ -4,8 +4,8 @@ const Menu = () => {
   const menuItems = [
     {
       name: "COSTELINHA DEFUMADA",
-      description: "Corte nobre defumado exclusivamente na lenha de café. Sabor único e inconfundível que diferencia seu restaurante. Produção artesanal com total exclusividade.",
-      highlight: "Lenha de café exclusiva",
+      description: "Corte nobre defumado apenas na lenha de café. Sabor único e inconfundível que diferencia seu restaurante. Produção artesanal com sabores únicos.",
+      highlight: "Lenha de café especial",
     },
     {
       name: "BRISKET PREMIUM",
@@ -15,7 +15,7 @@ const Menu = () => {
     {
       name: "CUPIM DEFUMADO",
       description: "Corte brasileiro elevado à excelência com defumação na lenha de café. Sabor exclusivo que combina tradição nacional com técnica americana refinada.",
-      highlight: "Exclusividade total",
+      highlight: "Qualidade total",
     },
   ];
 
@@ -24,10 +24,10 @@ const Menu = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 id="menu-heading" className="font-heading font-bold text-4xl md:text-5xl mb-4 text-foreground">
-            Produtos <span className="text-primary">Exclusivos</span> para sua Cozinha
+            Produtos <span className="text-primary">Únicos</span> para seu Restaurante
           </h2>
           <p className="font-body text-lg text-muted-foreground mb-6">
-            Carnes nobres defumadas na lenha de café. Mais de 10 anos de experiência em produção artesanal com total exclusividade de sabores e qualidade super premium.
+            Carnes nobres defumadas na lenha de café. Mais de 10 anos de experiência em produção artesanal com sabores únicos de sabores e qualidade super premium.
           </p>
           
           {/* Produtos Premium */}

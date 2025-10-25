@@ -1,12 +1,12 @@
-import gallery1 from "@/assets/gallery-1.jpg";
-import gallery2 from "@/assets/gallery-2.jpg";
-import gallery3 from "@/assets/gallery-3.jpg";
+import cupimImage from "@/assets/cupim.webp";
+import costelaImage from "@/assets/costela.webp";
+import brisketImage from "@/assets/brisket.webp";
 
 const Gallery = () => {
   const images = [
-    { src: gallery1, alt: "Churrasco premium com legumes e cerveja" },
-    { src: gallery2, alt: "Costela defumada com molhos artesanais" },
-    { src: gallery3, alt: "Carne na grelha com fumaça" },
+    { src: cupimImage, alt: "Cupim defumado na lenha de café" },
+    { src: costelaImage, alt: "Costela defumada com molhos artesanais" },
+    { src: brisketImage, alt: "Brisket premium defumado" },
   ];
 
   return (
