@@ -53,7 +53,7 @@ const Header = () => {
                   className="hidden sm:flex border-brand-gold text-brand-gold hover:bg-brand-gold hover:text-brand-black font-condensed font-semibold"
                   onClick={() => window.open('https://wa.me/551932733108', '_blank')}
                 >
-                  Reserve Agora
+                  Chamar no WhatsApp
                 </Button>
 
             {/* Mobile menu button */}
@@ -122,7 +122,7 @@ const Header = () => {
                     closeMobileMenu();
                   }}
                 >
-                  Reserve Agora
+                  Chamar no WhatsApp
                 </Button>
               </div>
             </nav>

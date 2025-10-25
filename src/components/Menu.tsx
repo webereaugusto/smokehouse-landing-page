@@ -1,4 +1,7 @@
 import { Button } from "@/components/ui/button";
+import embabrisket from "@/assets/embabrisket.webp";
+import embacostela from "@/assets/embacostela.webp";
+import embacupim from "@/assets/embacupim.webp";
 
 const Menu = () => {
   const menuItems = [
@@ -6,16 +9,19 @@ const Menu = () => {
       name: "COSTELINHA DEFUMADA",
       description: "Corte nobre defumado apenas na lenha de café. Sabor único e inconfundível que diferencia seu restaurante. Produção artesanal com sabores únicos.",
       highlight: "Lenha de café especial",
+      image: embacostela,
     },
     {
       name: "BRISKET PREMIUM",
       description: "Maturado e defumado por 12+ horas na lenha de café. Textura única e sabor profundo impossível de replicar. Qualidade super premium para clientes exigentes.",
       highlight: "12h+ defumação artesanal",
+      image: embabrisket,
     },
     {
       name: "CUPIM DEFUMADO",
       description: "Corte brasileiro elevado à excelência com defumação na lenha de café. Sabor exclusivo que combina tradição nacional com técnica americana refinada.",
       highlight: "Qualidade total",
+      image: embacupim,
     },
   ];
 
@@ -47,29 +53,41 @@ const Menu = () => {
           {menuItems.map((item, index) => (
             <div
               key={index}
-              className="bg-secondary/30 backdrop-blur-sm rounded-lg p-8 shadow-card hover:shadow-glow transition-all duration-300 border border-border/50 group hover:border-primary/30"
+              className="bg-secondary/30 backdrop-blur-sm rounded-lg overflow-hidden shadow-card hover:shadow-glow transition-all duration-300 border border-border/50 group hover:border-primary/30"
             >
-              <div className="flex items-start justify-between mb-4">
-                <h3 className="font-heading font-bold text-2xl text-foreground group-hover:text-primary transition-colors">
-                  {item.name}
-                </h3>
-                <span className="text-xs font-body bg-primary/20 text-primary px-3 py-1 rounded-full">
-                  {item.highlight}
-                </span>
+              <div className="relative h-48 overflow-hidden">
+                <img
+                  src={item.image}
+                  alt={item.name}
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-secondary/80 to-transparent"></div>
               </div>
               
-              <p className="font-body text-muted-foreground mb-6">
-                {item.description}
-              </p>
-              
-              <Button 
-                variant="menuItem" 
-                size="sm" 
-                className="font-heading"
-                onClick={() => window.open('https://wa.me/551932733108', '_blank')}
-              >
-                Solicitar Orçamento
-              </Button>
+              <div className="p-8">
+                <div className="flex items-start justify-between mb-4">
+                  <h3 className="font-heading font-bold text-2xl text-foreground group-hover:text-primary transition-colors">
+                    {item.name}
+                  </h3>
+                  <span className="text-xs font-body bg-primary/20 text-primary px-3 py-1 rounded-full">
+                    {item.highlight}
+                  </span>
+                </div>
+                
+                <p className="font-body text-muted-foreground mb-6">
+                  {item.description}
+                </p>
+                
+                <Button 
+                  variant="menuItem" 
+                  size="sm" 
+                  className="font-heading"
+                  onClick={() => window.open('https://wa.me/551932733108', '_blank')}
+                >
+                  Solicitar Orçamento
+                </Button>
+              </div>
             </div>
           ))}
         </div>
