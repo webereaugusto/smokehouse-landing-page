@@ -8,6 +8,7 @@ interface ParallaxSectionProps {
   titleHighlight?: string;
   description: string;
   footerText?: string;
+  showLogo?: boolean;
 }
 
 const ParallaxSection = ({ 
@@ -16,7 +17,8 @@ const ParallaxSection = ({
   title, 
   titleHighlight, 
   description, 
-  footerText 
+  footerText,
+  showLogo = true,
 }: ParallaxSectionProps) => {
   const parallaxRef = useRef<HTMLDivElement>(null);
 
@@ -67,14 +69,16 @@ const ParallaxSection = ({
       <div className="relative z-20 h-full flex items-center justify-center px-4">
         <div className="max-w-4xl mx-auto text-center">
           {/* Logo */}
-          <div className="mb-8 flex justify-center">
-            <img
-              src={logoImage}
-              alt="WEST 1465 Logo"
-              className="h-20 md:h-28 w-auto filter brightness-110 drop-shadow-lg"
-              loading="lazy"
-            />
-          </div>
+          {showLogo && (
+            <div className="mb-8 flex justify-center">
+              <img
+                src={logoImage}
+                alt="WEST 1465 Logo"
+                className="h-20 md:h-28 w-auto filter brightness-110 drop-shadow-lg"
+                loading="lazy"
+              />
+            </div>
+          )}
           
           {/* Subtítulo */}
           {subtitle && (

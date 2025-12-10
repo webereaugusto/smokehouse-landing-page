@@ -5,11 +5,12 @@ const Parallax2 = () => {
   return (
     <ParallaxSection
       image={paralax2Image}
-      subtitle="Qualidade Premium"
+      subtitle="Cerveja Artesanal"
       title="WEST 1465"
-      titleHighlight="Experiência Única"
-      description="Carnes premium defumadas na lenha de café e cerveja artesanal com sabores exclusivos. Mais de 10 anos de experiência em produção artesanal, criando uma experiência gastronômica memorável para seu restaurante."
-      footerText="Sabores Únicos • Qualidade Super Premium • Diferenciação Garantida"
+      titleHighlight="Sabor Autêntico"
+      description="Cerveja artesanal premium WEST 1465, disponível nos estilos Pilsen e Jaboticaba. Sabores exclusivos, marcantes e equilibrados, criados para harmonizar com cortes defumados e encantar os paladares mais exigentes."
+      footerText="Sabores Exclusivos • Qualidade Super Premium • Sucesso em Eventos"
+      showLogo={false}
     />
   );
 };
