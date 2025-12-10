@@ -15,8 +15,8 @@ const Events = () => {
     },
     {
       icon: Star,
-      title: "Cortes Premium",
-      description: "Costelinha, Brisket e Cupim defumados na lenha de café, preparados especialmente para impressionar seus convidados.",
+      title: "Cortes Premium e Cerveja Artesanal",
+      description: "Costelinha, Brisket e Cupim defumados na lenha de café, além de Cerveja Artesanal West 1465, preparados especialmente para impressionar seus convidados.",
     },
   ];
 
@@ -99,3 +99,5 @@ const Events = () => {
 };
 
 export default Events;
+
+

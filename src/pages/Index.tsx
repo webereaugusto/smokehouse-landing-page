@@ -7,10 +7,13 @@ import OurStory from "@/components/OurStory";
 import TheProcess from "@/components/TheProcess";
 import Gallery from "@/components/Gallery";
 import Menu from "@/components/Menu";
+import CervejaArtisanal from "@/components/CervejaArtisanal";
+import CervejaParallax from "@/components/CervejaParallax";
 import Events from "@/components/Events";
 import Experiences from "@/components/Experiences";
 import WhyChoose from "@/components/WhyChoose";
 import Testimonials from "@/components/Testimonials";
+import Parallax2 from "@/components/Parallax2";
 import FinalCTA from "@/components/FinalCTA";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -28,10 +31,13 @@ const Index = () => {
       <TheProcess />
       <Gallery />
       <Menu />
+      <CervejaArtisanal />
+      <CervejaParallax />
       <Events />
       <Experiences />
       <WhyChoose />
       <Testimonials />
+      <Parallax2 />
       <FinalCTA />
       <Contact />
       <Footer />

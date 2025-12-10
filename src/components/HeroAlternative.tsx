@@ -38,7 +38,7 @@ const HeroAlternative = () => {
             {/* Produtos Premium */}
             <div className="flex items-center justify-center md:justify-start gap-2 mb-8">
               <span className="font-heading font-bold text-lg text-foreground">
-                Costelinha • Brisket • Cupim Defumados
+                Costelinha • Brisket • Cupim Defumados • Cerveja Artesanal
               </span>
               <div className="flex gap-1">
                 {[...Array(5)].map((_, i) => (
