@@ -11,13 +11,13 @@ const FinalCTA = () => {
         </h2>
         
         <p className="font-body text-xl md:text-2xl text-muted-foreground mb-6 max-w-2xl mx-auto">
-          Produtos únicos defumados na lenha de café e cerveja artesanal premium. Mais de 10 anos de experiência em produção artesanal com total exclusividade de sabores e qualidade super premium.
+          Produtos únicos defumados na lenha de café. Mais de 10 anos de experiência em produção artesanal com total exclusividade de sabores e qualidade super premium.
         </p>
         
         {/* Produtos Premium */}
         <div className="flex items-center justify-center gap-2 mb-10">
           <span className="font-heading font-bold text-xl text-foreground">
-            Costelinha • Brisket • Cupim Defumados • Cerveja Artesanal
+            Costelinha • Brisket • Cupim Defumados
           </span>
           <div className="flex gap-1">
             {[...Array(5)].map((_, i) => (

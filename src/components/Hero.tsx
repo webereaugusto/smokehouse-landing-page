@@ -3,10 +3,9 @@ import { Button } from "@/components/ui/button";
 import hero1 from "@/assets/hero-grill.jpg";
 import hero2 from "@/assets/premium-cuts.jpg";
 import hero3 from "@/assets/smoking-technique.jpg";
-import beerSlide from "@/assets/beer-slide.jpg";
 
 const Hero = () => {
-  const images = [hero1, hero2, beerSlide, hero3];
+  const images = [hero1, hero2, hero3];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -44,7 +43,7 @@ const Hero = () => {
         </h1>
         
         <p className="font-body text-base md:text-lg mb-10 text-muted-foreground max-w-3xl mx-auto">
-          <strong>Costelinha, Brisket e Cupim</strong> defumados na lenha de café, além de <strong>Cerveja Artesanal West 1465</strong>. Mais de 10 anos de experiência em produção artesanal com sabores únicos e qualidade super premium.
+          <strong>Costelinha, Brisket e Cupim</strong> defumados na lenha de café. Mais de 10 anos de experiência em produção artesanal com sabores únicos e qualidade super premium.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

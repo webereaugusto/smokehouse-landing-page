@@ -62,7 +62,7 @@ const AmericanBBQ = () => {
             </p>
             
             <p className="font-body text-lg text-foreground max-w-4xl mx-auto font-semibold">
-              <strong>Costelinha, Brisket e Cupim</strong> defumados com sabores únicos, além de <strong>Cerveja Artesanal West 1465</strong> para harmonização perfeita. Produtos únicos que elevam o nível do seu estabelecimento e encantam os clientes mais exigentes.
+              <strong>Costelinha, Brisket e Cupim</strong> defumados com sabores únicos, apresentação e qualidade super premium. Produtos únicos que elevam o nível do seu estabelecimento e encantam os clientes mais exigentes.
             </p>
           </div>
         </div>

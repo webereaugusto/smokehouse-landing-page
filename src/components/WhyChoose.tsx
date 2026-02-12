@@ -26,7 +26,7 @@ const WhyChoose = () => {
     {
       icon: Award,
       title: "Produtos Únicos",
-      description: "Costelinha, Brisket, Cupim e Cerveja Artesanal com sabores impossíveis de replicar",
+      description: "Costelinha, Brisket e Cupim com sabores impossíveis de replicar",
     },
     {
       icon: Heart,

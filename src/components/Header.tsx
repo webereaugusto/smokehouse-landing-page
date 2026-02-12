@@ -38,9 +38,6 @@ const Header = () => {
             <a href="#cardapio" className="text-foreground hover:text-brand-gold transition-colors font-condensed font-medium" aria-label="Ir para seção Cardápio">
               Cardápio
             </a>
-            <a href="#cerveja" className="text-foreground hover:text-brand-gold transition-colors font-condensed font-medium" aria-label="Ir para seção Cerveja Artesanal">
-              Cerveja
-            </a>
             <a href="#galeria" className="text-foreground hover:text-brand-gold transition-colors font-condensed font-medium" aria-label="Ir para seção Galeria">
               Galeria
             </a>
@@ -99,14 +96,6 @@ const Header = () => {
                 aria-label="Ir para seção Cardápio"
               >
                 Cardápio
-              </a>
-              <a 
-                href="#cerveja" 
-                className="block text-foreground hover:text-brand-gold transition-colors font-condensed font-medium py-2"
-                onClick={closeMobileMenu}
-                aria-label="Ir para seção Cerveja Artesanal"
-              >
-                Cerveja
               </a>
               <a 
                 href="#galeria" 
