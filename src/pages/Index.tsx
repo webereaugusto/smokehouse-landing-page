@@ -12,7 +12,6 @@ import Experiences from "@/components/Experiences";
 import WhyChoose from "@/components/WhyChoose";
 import Testimonials from "@/components/Testimonials";
 import FinalCTA from "@/components/FinalCTA";
-import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
@@ -33,7 +32,6 @@ const Index = () => {
       <WhyChoose />
       <Testimonials />
       <FinalCTA />
-      <Contact />
       <Footer />
       <WhatsAppButton />
     </div>
